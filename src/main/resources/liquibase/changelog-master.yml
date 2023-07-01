@@ -1,3 +1,7 @@
 databaseChangeLog:
   - include:
-      file: liquibase/changesets/01012023_create_room.yml
+      file:  liquibase/changesets/01012023_create_room.yml
+  - include:
+      file:  liquibase/changesets/30062023_create_positionLb.yml
+  - include:
+      file:  liquibase/changesets/30062023_create_emplLb.yml
